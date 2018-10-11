@@ -332,7 +332,7 @@ extern void stbi_install_YCbCr_to_RGB(stbi_YCbCr_to_RGB_run func);
 #endif // STBI_INCLUDE_STB_IMAGE_H
 
 #ifndef STBI_HEADER_FILE_ONLY
-
+#define _CRT_SECURE_NO_WARNINGS
 #ifndef STBI_NO_HDR
 #include <math.h>  // ldexp
 #include <string.h> // strcmp, strtok
